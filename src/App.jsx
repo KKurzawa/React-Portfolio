@@ -1,6 +1,6 @@
 // import { useState } from 'react'
 import './App.css';
-import AboutMe from './components/Pages/About/About'
+import AboutMe from './Pages/About'
 
 function App() {
   return (
