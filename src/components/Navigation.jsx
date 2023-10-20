@@ -2,7 +2,7 @@ import { Link, useLocation } from 'react-router-dom';
 
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
-function NavTabs() {
+export default function NavTabs() {
     const currentPage = useLocation().pathname;
 
     return (
@@ -19,20 +19,20 @@ function NavTabs() {
             </nav>
             <nav className="nav-item">
                 <Link
-                    to="/Contact"
-                    // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-                    className={currentPage === '/Contact' ? 'nav-link active' : 'nav-link'}
-                >
-                    Contact
-                </Link>
-            </nav>
-            <nav className="nav-item">
-                <Link
                     to="/Portfolio"
                     // Check to see if the currentPage is `Blog`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
                     className={currentPage === '/Portfolio' ? 'nav-link active' : 'nav-link'}
                 >
                     Portfolio
+                </Link>
+            </nav>
+            <nav className="nav-item">
+                <Link
+                    to="/Contact"
+                    // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+                    className={currentPage === '/Contact' ? 'nav-link active' : 'nav-link'}
+                >
+                    Contact
                 </Link>
             </nav>
             <nav className="nav-item">
@@ -48,4 +48,4 @@ function NavTabs() {
     );
 }
 
-export default NavTabs;
+
