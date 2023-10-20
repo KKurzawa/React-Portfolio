@@ -2,5 +2,7 @@
 // import Project from "../../components/Project";
 
 export default function Portfolio() {
-    <h1>Portfolio</h1>
+    return (
+        <h1>Portfolio</h1>
+    )
 }
