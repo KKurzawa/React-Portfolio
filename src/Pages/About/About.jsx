@@ -3,15 +3,16 @@
 // import Footer from '../../components/Footer';
 // import Navigation from '../../components/Navigation';
 
-function AboutMe() {
+export default function AboutMe() {
 
     return (
-        <div>
+
+        <main>
             <h1>About Me</h1>
             <p>I am a full stack developer.</p>
-        </div>
+        </main>
     );
 }
 
-export default AboutMe;
+// export default AboutMe;
 
