@@ -14,7 +14,7 @@ export default function Footer() {
                     <a href="https://www.linkedin.com/in/kris-kurzawa-34105226b/"><FaLinkedinIn /></a>
                 </div>
                 <div>
-                    <a href=""><DiStackoverflow /></a>
+                    <a href="https://stackoverflowteams.com/c/self-employed/users/1/?tab=profile"><DiStackoverflow /></a>
                 </div>
             </nav>
         </footer>

@@ -1,10 +1,10 @@
 // import React from 'react';
-// import MoviePic from 'https://github.com/KKurzawa/Movie-Project/blob/main/assets/images/HomePage.PNG'
+import MoviePic from '../assets/MovieProject.png'
 const projects = [
     {
         'id': 1,
         'name': 'Movie Project',
-        // 'screenshot': MoviePic,
+        'screenshot': MoviePic,
         'siteLink': 'https://kkurzawa.github.io/Movie-Project/',
         'repositoryLink': 'https://github.com/KKurzawa/Movie-Project'
     },
@@ -22,6 +22,28 @@ const projects = [
         'siteLink': 'https://kkurzawa.github.io/JavaScript-Fundamentals-Challenge/',
         'repositoryLink': 'https://github.com/KKurzawa/JavaScript-Fundamentals-Challenge'
     },
+    {
+        'id': 4,
+        'name': 'Weather Dashboard',
+        'screenshot': '/Users/kkurzawa/bootcamp/Challenges/React-Portfolio/src/assets/JavascriptFundamentalschallenge.png',
+        'siteLink': 'https://kkurzawa.github.io/Weather-Dashboard/',
+        'repositoryLink': 'https://github.com/KKurzawa/Weather-Dashboard'
+    },
+    {
+        'id': 5,
+        'name': 'Weather Dashboard',
+        'screenshot': '/Users/kkurzawa/bootcamp/Challenges/React-Portfolio/src/assets/JavascriptFundamentalschallenge.png',
+        'siteLink': 'https://kkurzawa.github.io/Weather-Dashboard/',
+        'repositoryLink': 'https://github.com/KKurzawa/Weather-Dashboard'
+    },
+    {
+        'id': 6,
+        'name': 'Weather Dashboard',
+        'screenshot': '/Users/kkurzawa/bootcamp/Challenges/React-Portfolio/src/assets/JavascriptFundamentalschallenge.png',
+        'siteLink': 'https://kkurzawa.github.io/Weather-Dashboard/',
+        'repositoryLink': 'https://github.com/KKurzawa/Weather-Dashboard'
+    },
+
 
 ];
 
