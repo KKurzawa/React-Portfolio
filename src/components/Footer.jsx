@@ -6,15 +6,15 @@ export default function Footer() {
 
     return (
         <footer>
-            <nav>
+            <nav className='footer'>
                 <div>
-                    <a href="https://github.com/KKurzawa"><AiFillGithub /></a>
+                    <a href="https://github.com/KKurzawa"><AiFillGithub className='footerItem' /></a>
                 </div>
                 <div>
-                    <a href="https://www.linkedin.com/in/kris-kurzawa-34105226b/"><FaLinkedinIn /></a>
+                    <a href="https://www.linkedin.com/in/kris-kurzawa-34105226b/"><FaLinkedinIn className='footerItem' /></a>
                 </div>
                 <div>
-                    <a href="https://stackoverflowteams.com/c/self-employed/users/1/?tab=profile"><DiStackoverflow /></a>
+                    <a href="https://stackoverflowteams.com/c/self-employed/users/1/?tab=profile"><DiStackoverflow className='footerItem' /></a>
                 </div>
             </nav>
         </footer>
