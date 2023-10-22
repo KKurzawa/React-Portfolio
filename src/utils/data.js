@@ -25,23 +25,23 @@ const projects = [
     {
         'id': 4,
         'name': 'Weather Dashboard',
-        'screenshot': '/Users/kkurzawa/bootcamp/Challenges/React-Portfolio/src/assets/JavascriptFundamentalschallenge.png',
+        'screenshot': 'src/assets/WeatherDashboardPic.png',
         'siteLink': 'https://kkurzawa.github.io/Weather-Dashboard/',
         'repositoryLink': 'https://github.com/KKurzawa/Weather-Dashboard'
     },
     {
         'id': 5,
-        'name': 'Weather Dashboard',
-        'screenshot': '/Users/kkurzawa/bootcamp/Challenges/React-Portfolio/src/assets/JavascriptFundamentalschallenge.png',
-        'siteLink': 'https://kkurzawa.github.io/Weather-Dashboard/',
-        'repositoryLink': 'https://github.com/KKurzawa/Weather-Dashboard'
+        'name': 'Work Day Scheduler',
+        'screenshot': 'src/assets/WorkDaySchedulerPic.png',
+        'siteLink': 'https://kkurzawa.github.io/Work-Day-Scheduler/',
+        'repositoryLink': 'https://github.com/KKurzawa/Work-Day-Scheduler'
     },
     {
         'id': 6,
-        'name': 'Weather Dashboard',
-        'screenshot': '/Users/kkurzawa/bootcamp/Challenges/React-Portfolio/src/assets/JavascriptFundamentalschallenge.png',
-        'siteLink': 'https://kkurzawa.github.io/Weather-Dashboard/',
-        'repositoryLink': 'https://github.com/KKurzawa/Weather-Dashboard'
+        'name': 'Personal Portfolio',
+        'screenshot': 'src/assets/PortfolioPic.png',
+        'siteLink': 'https://kkurzawa.github.io/KrisKurzawa-Portfolio/',
+        'repositoryLink': 'https://github.com/KKurzawa/KrisKurzawa-Portfolio'
     },
 
 
