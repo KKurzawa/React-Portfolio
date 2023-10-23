@@ -26,18 +26,21 @@
 
 .nav-item {
   margin: 3rem;
+  font-size: 1.5em;
 }
 
-.about-me {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+
+
+/* .about-me-body {
+  margin-left: 50px;
+} */
 
 .footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 5em;
+  margin-bottom: 5em;
 }
 
 .footerItem{

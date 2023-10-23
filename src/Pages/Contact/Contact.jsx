@@ -46,33 +46,35 @@ export default function Contact() {
         // If everything goes according to plan, we want to clear out the input after a successful registration.
         setName('');
         setEmail('');
+        setMessage('');
 
     };
 
     return (
         <div className="container text-center">
-            <h1>Contact</h1>
+            <h1>Contact Me</h1>
             <form className="form" onSubmit={handleFormSubmit}>
                 <input
                     value={name}
                     name="name"
                     onChange={handleInputChange}
                     type="text"
-                    placeholder="name"
+                    placeholder="Name"
                 />
                 <input
                     value={email}
                     name="email"
                     onChange={handleInputChange}
                     type="email"
-                    placeholder="email"
+                    placeholder="Email"
                 />
-                <input
+                <textarea
+                    id='messageBody'
                     value={message}
                     name="message"
                     onChange={handleInputChange}
                     type="message"
-                    placeholder="message"
+                    placeholder="Message"
                 />
                 <button type="submit">Submit</button>
             </form>
