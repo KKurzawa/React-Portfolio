@@ -25,7 +25,6 @@ export default function Portfolio() {
                         to={`/project/${project.id}`}>
                     </Link>
                 </Project>
-
             ))}
         </div>
 

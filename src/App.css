@@ -34,7 +34,13 @@
 }
 
 .project {
-  width: 75%;
+  height: 15em;
+  width: 30em;
+}
+
+.project-description {
+  margin-left: 5em;
+  margin-right: 5em;
 }
 
 .footer {
