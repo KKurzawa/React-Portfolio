@@ -7,7 +7,7 @@ export default function Header() {
 
     return (
         <header className="header">
-            <h1>Kris Kurzawa</h1>
+            <h1 className="header-name">Kris Kurzawa</h1>
             <Navigation />
         </header>
     );

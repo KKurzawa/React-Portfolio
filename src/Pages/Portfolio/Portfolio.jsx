@@ -18,6 +18,7 @@ export default function Portfolio() {
 
     return (
         <div>
+            <h1>Portfolio</h1>
             {projects.map((project) => (
                 <Project key={project.id} project={project}>
                     <Link
