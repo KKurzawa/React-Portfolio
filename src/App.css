@@ -17,6 +17,12 @@
 
 .header-name {
   margin-left: .5em;
+  margin-bottom: 0;
+  margin-top: .5em;
+}
+
+.header-title {
+  margin-top: -.5em;
 }
 
 .nav {
@@ -29,8 +35,8 @@
 }
 
 .nav-item {
-  margin: 3rem;
-  font-size: 1.5em;
+  margin: 2rem;
+  font-size: 1em;
 }
 
 .project {
@@ -39,8 +45,10 @@
 }
 
 .project-description {
-  margin-left: 5em;
-  margin-right: 5em;
+  /* display: flex;
+  align-content: center; */
+  /* width: 75%; */
+  margin:1em 4em;
 }
 
 .footer {

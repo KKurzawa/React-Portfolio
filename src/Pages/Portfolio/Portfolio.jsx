@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import Project from '../../components/Project';
 import { getProjects } from '../../utils/data';
+import './style.css';
 
 export default function Portfolio() {
     const [projects, setProjects] = useState([]);
@@ -19,13 +20,15 @@ export default function Portfolio() {
     return (
         <div>
             <h1>Portfolio</h1>
-            {projects.map((project) => (
-                <Project key={project.id} project={project}>
-                    <Link
-                        to={`/project/${project.id}`}>
-                    </Link>
-                </Project>
-            ))}
+            <div className='project-container'>
+                {projects.map((project) => (
+                    <Project key={project.id} project={project}>
+                        <Link
+                            to={`/project/${project.id}`}>
+                        </Link>
+                    </Project>
+                ))}
+            </div>
         </div>
 
     )
