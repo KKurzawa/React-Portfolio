@@ -52,7 +52,7 @@ export default function Contact() {
 
     return (
         <div className="container text-center">
-            <h1>Contact Me</h1>
+            <h2 className="page-header">Contact Me</h2>
             <form className="form" onSubmit={handleFormSubmit}>
                 <input
                     value={name}

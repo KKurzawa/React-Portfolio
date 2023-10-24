@@ -11,6 +11,10 @@
     /* min-width: 25%; */
   }
 
+  .page-header {
+    font-size: 3em;
+  }
+
 /* @media screen and (max-width: 900px){
   .profile-pic {
     width: 50%;

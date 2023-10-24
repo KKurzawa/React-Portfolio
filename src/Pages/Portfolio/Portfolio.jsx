@@ -19,7 +19,7 @@ export default function Portfolio() {
 
     return (
         <div>
-            <h1>Portfolio</h1>
+            <h2 className="page-header">Portfolio</h2>
             <div className='project-container'>
                 {projects.map((project) => (
                     <Project key={project.id} project={project}>

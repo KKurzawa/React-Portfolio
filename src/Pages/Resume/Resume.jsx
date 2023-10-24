@@ -17,7 +17,7 @@ export default function Resume() {
     return (
         <>
             <div className="resume">
-                <h1>Resume</h1>
+                <h2 className="page-header">Resume</h2>
                 <button className='downloadButton' onClick={onButtonClick}>
                     Download PDF
                 </button>
