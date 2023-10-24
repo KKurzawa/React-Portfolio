@@ -8,9 +8,9 @@ A professional portfolio for Kris Kurzawa built with React and deployed with Net
 
 ![screenshot]()
 
-[Github Repository]()
+[Github Repository](https://github.com/KKurzawa/React-Portfolio)
 
-[Demo]()
+[Deployed Site](https://kriskurzawa.netlify.app/)
 
 ## Credits
 
