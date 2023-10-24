@@ -37,10 +37,9 @@ export default function NavTabs() {
             </nav>
             <nav className="nav-item">
                 <Link
-                    to='https://docs.google.com/document/d/1cnfdoRD1DD1lvEWoRm_g0X-OJJtR2V2Q6aUbG0BjHHg/edit?usp=sharing'
-                    // to="/Resume"
+                    to="/Resume"
                     // // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-                    className={currentPage === 'https://docs.google.com/document/d/1cnfdoRD1DD1lvEWoRm_g0X-OJJtR2V2Q6aUbG0BjHHg/edit?usp=sharing' ? 'nav-link active' : 'nav-link'}
+                    className={currentPage === '/Resume' ? 'nav-link active' : 'nav-link'}
 
                 >
                     Resume
