@@ -1,4 +1,5 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/82902b20-689a-4061-b9ce-5c386987c4fb/deploy-status)](https://app.netlify.com/sites/kriskurzawa/deploys)
 # React-Portfolio
 
 ## Description
