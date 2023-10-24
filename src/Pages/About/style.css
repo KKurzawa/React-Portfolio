@@ -6,18 +6,18 @@
   }
 
   .profile-pic {
-    width: 100%;
+    width: 50vw;
     height: auto;
     /* min-width: 25%; */
   }
 
-@media screen and (max-width: 900px){
+/* @media screen and (max-width: 900px){
   .profile-pic {
     width: 50%;
     height: 50%;
     
   }
-}
+} */
 
   
 
