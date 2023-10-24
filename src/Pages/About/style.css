@@ -5,3 +5,19 @@
     margin: 0em 15em 0em 15em;
   }
 
+  .profile-pic {
+    width: 100%;
+    height: auto;
+    /* min-width: 25%; */
+  }
+
+@media screen and (max-width: 900px){
+  .profile-pic {
+    width: 50%;
+    height: 50%;
+    
+  }
+}
+
+  
+

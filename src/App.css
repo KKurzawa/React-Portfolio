@@ -9,6 +9,7 @@
 
 .header {
   background-color: red;
+  color: white;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -26,6 +27,7 @@
 }
 
 .nav {
+  color:black;
   display: flex;
   /* justify-content: center; */
   align-content: center;
@@ -35,13 +37,14 @@
 }
 
 .nav-item {
-  margin: 2rem;
+  color: black;
+  margin: .5rem;
   font-size: 1em;
 }
 
 .project {
-  height: 15em;
-  width: 30em;
+  height: 12em;
+  width: 24em;
 }
 
 .project-description {
@@ -66,3 +69,22 @@
 }
 
 
+@media screen and (max-width: 900px){
+ .header {
+  /* display: flex; */
+  flex-direction: column;
+ }
+
+ .header-name {
+  margin-left: 0;
+ }
+
+ .nav {
+  flex-direction: column;
+ }
+
+ .nav-item {
+  margin: 0;
+  font-size: 1em;
+}
+}
