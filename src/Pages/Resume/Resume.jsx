@@ -23,7 +23,6 @@ export default function Resume() {
                 </button>
                 <h2>Technical Skills</h2>
                 <Skills />
-
             </div>
 
 
