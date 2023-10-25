@@ -111,8 +111,11 @@ margin-right: 3.5em;
 }
 
 .skills {
-  margin-left: 0;
-  margin-right: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: 5px;
+  margin-right: 7px;
 }
 
 /* .skill {
