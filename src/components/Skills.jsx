@@ -1,22 +1,11 @@
 import { AiFillHtml5 } from 'react-icons/ai';
 import { FaCss3Alt } from 'react-icons/fa';
 import { IoLogoJavascript } from 'react-icons/io';
-import { BiLogoJquery, BiLogoNodejs, BiLogoMongodb, BiLogoReact, BiLogoHeroku, BiLogoNetlify } from 'react-icons/bi';
+import { BiLogoJquery, BiLogoNodejs, BiLogoMongodb, BiLogoReact, BiLogoHeroku, BiLogoNetlify, BiLogoGraphql } from 'react-icons/bi';
 import { BsFillBootstrapFill } from 'react-icons/bs';
-import { SiBulma } from 'react-icons/si';
+import { SiBulma, SiMongoose, SiWebpack, SiJsonwebtokens, SiVite, SiHandlebarsdotjs, SiSequelize, SiInsomnia, SiBabel, SiSvg, SiJest } from 'react-icons/si';
 import { GrMysql } from 'react-icons/gr';
-import { SiMongoose } from 'react-icons/si';
-import { SiWebpack } from 'react-icons/si';
-import { BiLogoGraphql } from 'react-icons/bi';
 import { TbJson } from 'react-icons/tb';
-import { SiJsonwebtokens } from 'react-icons/si';
-import { SiVite } from 'react-icons/si';
-import { SiHandlebarsdotjs } from 'react-icons/si';
-import { SiSequelize } from 'react-icons/si';
-import { SiInsomnia } from 'react-icons/si';
-import { SiBabel } from 'react-icons/si';
-import { SiSvg } from 'react-icons/si';
-import { SiJest } from 'react-icons/si';
 
 export default function Skills() {
     return (
