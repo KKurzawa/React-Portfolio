@@ -13,6 +13,8 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  border-bottom-style: solid;
+  border-color: gray;
   /* flex-direction: row; */
 }
 
@@ -21,6 +23,10 @@
   margin-left: .5em;
   margin-bottom: 0;
   margin-top: .5em;
+}
+
+.Kurzawa {
+  color: rgb(165, 165, 165);
 }
 
 .header-title {
@@ -70,7 +76,13 @@ margin-right: 3.5em;
   justify-content: center;
   align-items: center;
   margin-top: 5em;
-  margin-bottom: 5em;
+  height: 100px;
+  /* margin-bottom: 5em; */
+  background-color:rgb(70, 70, 70);
+  /* background-color: red; */
+  color-scheme: light dark;
+  border-top-style: solid;
+  border-color: gray;
 }
 
 .footerItem{
@@ -88,6 +100,7 @@ margin-right: 3.5em;
 
  .header-name {
   margin-left: 0;
+  font-size: 3.5em;
  }
 
  .nav {
