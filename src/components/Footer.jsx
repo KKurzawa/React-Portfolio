@@ -8,13 +8,13 @@ export default function Footer() {
         <footer>
             <nav className='footer'>
                 <div>
-                    <a href="https://github.com/KKurzawa"><AiFillGithub className='footerItem' /></a>
+                    <a href="https://github.com/KKurzawa" target="_blank" rel="noreferrer"><AiFillGithub className='footerItem' /></a>
                 </div>
                 <div>
-                    <a href="https://www.linkedin.com/in/kris-kurzawa-34105226b/"><FaLinkedinIn className='footerItem' /></a>
+                    <a href="https://www.linkedin.com/in/kris-kurzawa-34105226b/" target="_blank" rel="noreferrer"><FaLinkedinIn className='footerItem' /></a>
                 </div>
                 <div>
-                    <a href="https://stackoverflow.com/users/22785835/kris-kurzawa?tab=profile"><DiStackoverflow className='footerItem' /></a>
+                    <a href="https://stackoverflow.com/users/22785835/kris-kurzawa?tab=profile" target="_blank" rel="noreferrer"><DiStackoverflow className='footerItem' /></a>
                 </div>
             </nav>
         </footer>
