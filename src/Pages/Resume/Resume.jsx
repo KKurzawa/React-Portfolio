@@ -1,8 +1,4 @@
-// import Resume1 from '../../assets/'
-import React from "react";
 import Skills from '../../components/Skills'
-
-
 
 export default function Resume() {
     const onButtonClick = () => {
@@ -24,12 +20,6 @@ export default function Resume() {
                 <h2>Technical Skills</h2>
                 <Skills />
             </div>
-
-
-
-
-
         </>
-
     )
 }

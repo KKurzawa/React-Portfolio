@@ -47,8 +47,6 @@ const projects = [
         'description': 'Built with HTML and CSS.',
         'repositoryLink': 'https://github.com/KKurzawa/KrisKurzawa-Portfolio'
     },
-
-
 ];
 
 export function getProjects() {

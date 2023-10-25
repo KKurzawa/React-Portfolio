@@ -1,4 +1,3 @@
-// multiple projects being displayed
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import Project from '../../components/Project';
@@ -30,6 +29,5 @@ export default function Portfolio() {
                 ))}
             </div>
         </div>
-
     )
 }

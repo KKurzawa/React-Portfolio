@@ -1,22 +1,6 @@
-
-// import Project from '../../components/Project';
-// import { useState, useEffect } from 'react';
-
 import './style.css';
 
-
-
 export default function AboutMe() {
-    // const [profilePic, setProfilePic] = useState([]);
-
-    // const fetchData = async () => {
-
-    //     setProfilePic(profilePic);
-    // }
-    // useEffect(() => {
-    //     fetchData();
-    // }, []);
-
     return (
 
         <div className="about-me">

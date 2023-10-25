@@ -1,4 +1,3 @@
-// single bootcamp project to be reused for each project in portfolio
 import { AiFillGithub } from 'react-icons/ai';
 
 export default function Project(props) {
