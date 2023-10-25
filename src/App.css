@@ -56,6 +56,13 @@
   height: 60px;
 }
 
+.skills {
+font-size: 3em;
+}
+
+.skill {
+  margin: .5em;
+}
 .footer {
   display: flex;
   justify-content: center;

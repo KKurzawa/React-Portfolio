@@ -20,77 +20,77 @@ import { SiJest } from 'react-icons/si';
 
 export default function Skills() {
     return (
-        <div>
-            <a href='https://html.spec.whatwg.org/'>
+        <div className='skills'>
+            <a className='skill' href='https://html.spec.whatwg.org/'>
                 <AiFillHtml5 />
             </a>
-            <a href='https://www.w3.org/Style/CSS/Overview.en.html'>
+            <a className='skill' href='https://www.w3.org/Style/CSS/Overview.en.html'>
                 <FaCss3Alt />
             </a>
-            <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript'>
+            <a className='skill' href='https://developer.mozilla.org/en-US/docs/Web/JavaScript'>
                 <IoLogoJavascript />
             </a>
-            <a href='https://jquery.com/'>
+            <a className='skill' href='https://jquery.com/'>
                 <BiLogoJquery />
             </a>
-            <a href='https://getbootstrap.com/'>
+            <a className='skill' href='https://getbootstrap.com/'>
                 <BsFillBootstrapFill />
             </a>
-            <a href='https://bulma.io/'>
+            <a className='skill' href='https://bulma.io/'>
                 <SiBulma />
             </a>
-            <a href='https://nodejs.org/en'>
+            <a className='skill' href='https://nodejs.org/en'>
                 <BiLogoNodejs />
             </a>
-            <a href='https://www.mysql.com/'>
+            <a className='skill' href='https://www.mysql.com/'>
                 <GrMysql />
             </a>
-            <a href='https://www.mongodb.com/try/download/shell'>
+            <a className='skill' href='https://www.mongodb.com/try/download/shell'>
                 <BiLogoMongodb />
             </a>
-            <a href='https://mongoosejs.com/'>
+            <a className='skill' href='https://mongoosejs.com/'>
                 <SiMongoose />
             </a>
-            <a href='https://webpack.js.org/'>
+            <a className='skill' href='https://webpack.js.org/'>
                 <SiWebpack />
             </a>
-            <a href='https://react.dev/'>
+            <a className='skill' href='https://react.dev/'>
                 <BiLogoReact />
             </a>
-            <a href='https://graphql.org/'>
+            <a className='skill' href='https://graphql.org/'>
                 <BiLogoGraphql />
             </a>
-            <a href='https://www.json.org/json-en.html'>
+            <a className='skill' href='https://www.json.org/json-en.html'>
                 <TbJson />
             </a>
-            <a href='https://jwt.io/'>
+            <a className='skill' href='https://jwt.io/'>
                 <SiJsonwebtokens />
             </a>
-            <a href='https://vitejs.dev/'>
+            <a className='skill' href='https://vitejs.dev/'>
                 <SiVite />
             </a>
-            <a href='https://handlebarsjs.com/'>
+            <a className='skill' href='https://handlebarsjs.com/'>
                 <SiHandlebarsdotjs />
             </a>
-            <a href='https://www.heroku.com/home'>
+            <a className='skill' href='https://www.heroku.com/home'>
                 <BiLogoHeroku />
             </a>
-            <a href='https://sequelize.org/'>
+            <a className='skill' href='https://sequelize.org/'>
                 <SiSequelize />
             </a>
-            <a href='https://insomnia.rest/'>
+            <a className='skill' href='https://insomnia.rest/'>
                 <SiInsomnia />
             </a>
-            <a href='https://babeljs.io/'>
+            <a className='skill' href='https://babeljs.io/'>
                 <SiBabel />
             </a>
-            <a href='https://www.netlify.com/'>
+            <a className='skill' href='https://www.netlify.com/'>
                 <BiLogoNetlify />
             </a>
-            <a href='https://www.w3.org/Graphics/SVG/'>
+            <a className='skill' href='https://www.w3.org/Graphics/SVG/'>
                 <SiSvg />
             </a>
-            <a href='https://jestjs.io/'>
+            <a className='skill' href='https://jestjs.io/'>
                 <SiJest />
             </a>
         </div >
