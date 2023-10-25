@@ -21,102 +21,78 @@ import { SiJest } from 'react-icons/si';
 export default function Skills() {
     return (
         <div>
-            <a href='https://developer.mozilla.org/en-US/docs/Web/HTML'>
+            <a href='https://html.spec.whatwg.org/'>
                 <AiFillHtml5 />
             </a>
-            <a href=''>
+            <a href='https://www.w3.org/Style/CSS/Overview.en.html'>
                 <FaCss3Alt />
             </a>
-            <a href=''>
+            <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript'>
                 <IoLogoJavascript />
             </a>
-            <a href=''>
+            <a href='https://jquery.com/'>
                 <BiLogoJquery />
             </a>
-            <a href=''>
+            <a href='https://getbootstrap.com/'>
                 <BsFillBootstrapFill />
             </a>
-            <a href=''>
+            <a href='https://bulma.io/'>
                 <SiBulma />
             </a>
-            <a href=''>
+            <a href='https://nodejs.org/en'>
                 <BiLogoNodejs />
             </a>
-            <a href=''>
+            <a href='https://www.mysql.com/'>
                 <GrMysql />
             </a>
-            <a href=''>
+            <a href='https://www.mongodb.com/try/download/shell'>
                 <BiLogoMongodb />
             </a>
-            <a href=''>
+            <a href='https://mongoosejs.com/'>
                 <SiMongoose />
             </a>
-            <a href=''>
+            <a href='https://webpack.js.org/'>
                 <SiWebpack />
             </a>
-            <a href=''>
+            <a href='https://react.dev/'>
                 <BiLogoReact />
             </a>
-            <a href=''>
+            <a href='https://graphql.org/'>
                 <BiLogoGraphql />
             </a>
-            <a href=''>
+            <a href='https://www.json.org/json-en.html'>
                 <TbJson />
             </a>
-            <a href=''>
+            <a href='https://jwt.io/'>
                 <SiJsonwebtokens />
             </a>
-            <a href=''>
+            <a href='https://vitejs.dev/'>
                 <SiVite />
             </a>
-            <a href=''>
+            <a href='https://handlebarsjs.com/'>
                 <SiHandlebarsdotjs />
             </a>
-            <a href=''>
+            <a href='https://www.heroku.com/home'>
                 <BiLogoHeroku />
             </a>
-            <a href=''>
+            <a href='https://sequelize.org/'>
                 <SiSequelize />
             </a>
-            <a href=''>
+            <a href='https://insomnia.rest/'>
                 <SiInsomnia />
             </a>
-            <a href=''>
+            <a href='https://babeljs.io/'>
                 <SiBabel />
             </a>
-            <a href=''>
+            <a href='https://www.netlify.com/'>
                 <BiLogoNetlify />
             </a>
-            <a href=''>
+            <a href='https://www.w3.org/Graphics/SVG/'>
                 <SiSvg />
             </a>
-            <a href=''>
+            <a href='https://jestjs.io/'>
                 <SiJest />
             </a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         </div >
     )
 } 
