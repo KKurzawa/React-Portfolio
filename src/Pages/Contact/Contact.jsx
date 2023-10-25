@@ -76,7 +76,7 @@ export default function Contact() {
                     type="message"
                     placeholder="Message"
                 />
-                <button type="submit">Submit</button>
+                <button className="submit-button" type="submit">Submit</button>
             </form>
             {errorMessage && (
                 <div>
