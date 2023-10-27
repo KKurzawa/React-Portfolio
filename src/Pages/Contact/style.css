@@ -22,4 +22,9 @@
     height: 5em;
   }
 
+  .submit-button {
+    display: flex;
+    justify-content: center;
+  }
+
   

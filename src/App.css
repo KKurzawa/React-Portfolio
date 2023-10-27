@@ -47,6 +47,22 @@
 .project {
   height: 12em;
   width: 24em;
+  filter: grayscale(90%);
+  -webkit-filter: grayscale(90%);
+/* -webkit-transition: all 1s ease; */
+}
+
+.project:hover {
+    filter: grayscale(0%);
+    filter: gray;
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    transition: .5s ease;
+    /* transform: scale(1.1); */
+    /* cursor: pointer; */
+    overflow: visible;
+    /* height: 100%; */
+    box-shadow: 3px 3px 3px 3px gray; 
 }
 
 .project-description {
@@ -55,14 +71,27 @@
 }
 
 .skills {
-font-size: 3em;
 margin-left: 3.5em;
 margin-right: 3.5em;
 }
 
 .skill {
-  margin: .5em;
+  font-size: 4em;
+  margin: 0 .5em ;
+  transition: all 0.3s;
+  
 }
+
+.skill:hover {
+  transform: scale(1.3) rotate(5deg);
+  color: red;
+}
+
+.skill-name {
+  margin: 0;
+  padding-bottom: 5em;
+}
+
 .footer {
   display: flex;
   justify-content: center;
@@ -79,7 +108,6 @@ margin-right: 3.5em;
   margin-right: 1em;
   font-size: 2em;
 }
-
 
 @media screen and (max-width: 900px){
  .header {
@@ -100,11 +128,11 @@ margin-right: 3.5em;
   font-size: 1em;
 }
 
-.skills {
+/* .skills {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   margin-left: 5px;
   margin-right: 7px;
-}
+} */
 }
