@@ -49,7 +49,7 @@
   width: 24em;
   filter: grayscale(90%);
   -webkit-filter: grayscale(90%);
-/* -webkit-transition: all 1s ease; */
+  -webkit-transition: all 1s ease;
 }
 
 .project:hover {
@@ -58,10 +58,7 @@
     -webkit-filter: grayscale(0%);
     filter: none;
     transition: .5s ease;
-    /* transform: scale(1.1); */
-    /* cursor: pointer; */
     overflow: visible;
-    /* height: 100%; */
     box-shadow: 3px 3px 3px 3px gray; 
 }
 
@@ -127,12 +124,4 @@ margin-right: 3.5em;
   margin: 0;
   font-size: 1em;
 }
-
-/* .skills {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin-left: 5px;
-  margin-right: 7px;
-} */
 }
