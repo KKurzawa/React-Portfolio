@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-// import { Link } from 'react-router-dom';
 import Skills from '../../components/Skills';
 import { getSkills } from '../../utils/data';
 import './style.css';
@@ -35,7 +34,6 @@ export default function Resume() {
                     Download PDF
                 </button>
                 <h2>Technical Skills</h2>
-                {/* <Skills /> */}
                 <div className='skill-container'>
                     {skills.map((skill) => (
                         <Skills key={skill.id} skill={skill}>
